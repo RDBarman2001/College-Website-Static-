@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.slider img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 316px;
+    box-shadow: 0px 5px 10px -6px black;
+    margin: auto;
+    margin-top: 3px;
+    
+}
+.heading{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.heading h3{
+    font-size: 30px;
+   font-weight:600;
+    font-family: 'Encode Sans SC', sans-serif;
+    border-bottom: 1px double black;
+    
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.about-container{
+    display: flex;
+    width: 70%;
+    height: 300px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px black;
+    padding: 25px 10px;
+    border-radius: 2px;
+
+}
+.about-container:hover{
+    transform: scale(1.03);
+    transition: ease-in-out .2s;
+
+}
+.about-img img{
+    height: 100%;
+    margin-right: 10px;
+    box-shadow: 0px 5px 20px -6px black;
+    
+}
+.img2 img{
+    box-shadow: 6px -2px 20px -6px black;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.about-text{
+    width: 50%;
+    text-align: start;
+    
+}
+.about-text h2{
+    font-weight:600;
+    font-family: 'Encode Sans SC', sans-serif;
+    border-bottom: 1px double black;
+}
+.about-text p{
+    padding: 25px 0px;
+    font-weight: normal;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+@media (max-width:1035px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container{
+     height: 100%;
+     width: 61%;
+     
+     align-items: center;
+     
+     flex-direction: column;
+    }
+    .slider img{
+    
+        width: 100%;
+    
+        
+    }
+    
+    .about-img img{
+      height: 300px;
+      margin-left: 0px;
+      margin-right: 0px;
+    
+}}
+@media (max-width:800px){
+    .about-container{
+        width: 75%;
+}
+}
+@media (max-width:652px){
+    .about-container{
+        width: 90%;
+}
+.about-img .img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+}
+@media (max-width:550px){
+    .about-container{
+        width: 100%;
+}}
+
+@media (max-width:499px){
+    .about-img img{
+        width: 200px;
+        height: 100px;
+    }
+    
+    .about-container{
+
+        width: 100%;
+        height: 50%;
+}}
+
+@media (max-width:400px){
+
+.heading h3{
+    font-size: 20px;
+}
+    
+   
+    } 

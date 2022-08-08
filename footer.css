@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    background-color:rgba(247, 244, 244, 0.411);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    
+    
+}
+.icons{
+    margin: 0px 13px;
+    cursor: pointer;
+    
+}
+.icons img{
+    height: 30px;
+}
+ @media (max-width:420px){
+     .footer{
+         font-size: .5rem;
+     }
+     .icons img{
+         height: 20px;
+
+     }
+ }
